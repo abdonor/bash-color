@@ -1,5 +1,5 @@
 # Git Abdonor Prompt
-Change the colors of your bash, and the git branch visible.
+Change the colors of your bash, and let the git branch visible.
 ## Installation
 
 Run the commands:

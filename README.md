@@ -12,3 +12,5 @@ chmod 777 -R ~/.bash/
 ~/.bash/bash-color/run.sh
 ```
 
+Then reboot your linux and it's ok.
+

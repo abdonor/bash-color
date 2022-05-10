@@ -6,7 +6,7 @@ echo '('$name')' > nameMachine.txt
 
 CMM1='export GIT_ABDONOR_PROMPT=~/.bash/bash-color'
 CMM2='source "${GIT_ABDONOR_PROMPT}/main.sh"'
-CMM3='NAMEFILE=$name'
+CMM3='NAMEFILE=/home/abdonor/nameMachine.txt'
 CMM4='export PS1="\${NAMEFILE} \${debian_chroot:+(\$debian_chroot)}\[\033[01;33m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\] \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\]\$ " '
 
 echo -e $CMM4"\n$(cat ~/.bashrc)" > ~/.bashrc
